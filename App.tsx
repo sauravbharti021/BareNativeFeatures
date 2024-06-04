@@ -26,11 +26,11 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, useNavigation } from "@react-navigation/native";
-import HomeScreen from './screens/HomeScreen'
-import CameraScreen from './screens/CameraScreen';
+import HomeScreen from './src/screens/HomeScreen';
+import CameraScreen from './src/screens/CameraScreen';
 import Icon from 'react-native-vector-icons/FontAwesome'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import PermissionNavigator from './navigation/PermissionNavigator'
+import PermissionNavigator from './src/navigation/PermissionNavigator'
 
 type SectionProps = PropsWithChildren<{
   title: string;
